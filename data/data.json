@@ -1,0 +1,23 @@
+{
+
+	"wait": {
+		"short": 500,
+		"moderate": 1000,
+		"long": 5000,
+		"extra": 10000
+	},
+
+	"hosts": {
+		"url_demo": "https://stunningsmilesoflakeforest.com/"
+	},
+
+	"site": {
+		"client_phone": {
+			"number": "//*[@class=\"client-phone\"]"
+		},
+		"social_link": {
+			"wrapper": "//*[@class=\"social-wrap\"]"
+		}
+	}
+
+}
