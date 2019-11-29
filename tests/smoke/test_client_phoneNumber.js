@@ -48,7 +48,7 @@ module.exports = {
 		socialMediaLinks.forEach(function(link){
 			testUtil.goToUrl(client, link);
 			client.source(function(src) {
-				client.assert.equal(true, src.value.includes(clientPhoneNum), "Client Number found on " + link)
+				client.verify.equal(true, src.value.includes(clientPhoneNum), "Client Number found on " + link)
 			});
 		});
 
